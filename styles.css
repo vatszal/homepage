@@ -16,10 +16,10 @@ body {
     text-align: center;
 }
 
-#p1{
-    font-size:30px;
+#p1 {
+    font-size: 30px;
     font-family: arial;
-    padding-top:15px;
+    padding-top: 15px;
 }
 
 .headings {
@@ -30,10 +30,11 @@ body {
 
 }
 
-#headingin{
-    font-size:35px;
-    padding-bottom:10px;
+#headingin {
+    font-size: 35px;
+    padding-bottom: 10px;
 }
+
 footer {
     position: fixed;
     text-align: center;
@@ -91,11 +92,70 @@ a {
 }
 
 ul li {
-    font-size: 25px;
+    font-size: 27px;
     font-family: verdana;
-    text-align:left;
+    text-align: left;
 }
 
 #tablediv {
     margin-top: 40px;
+}
+
+#catpic{
+    width:450px;
+}
+
+@media screen and (max-width:600px) {
+    header {
+        font-size: 40px;
+    }
+
+    .headings {
+        font-size: 22px;
+    }
+
+    .buttonsdiv {
+        padding-inline: 27%;
+    }
+
+    .infoheader {
+        font-size: 27px;
+    }
+
+    #intheader {
+        font-size: 28px;
+    }
+
+    .showsheader {
+        font-size: 30.5px;
+    }
+
+    .t {
+        margin-top: 20px;
+    }
+
+    .button2 {
+        width: 125px;
+        height: 80px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    ul li {
+        font-size: 23.5px;
+    }
+
+    #catpic {
+        margin-top:40px;
+        width: 350px;
+    }
+
+    #headingin {
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+
+    #p1 {
+        font-size: 20px;
+    }
 }
